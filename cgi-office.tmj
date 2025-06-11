@@ -1703,7 +1703,7 @@
         {
          "columns":16,
          "firstgid":2956,
-         "image":"decorations-medieval.png",
+         "image":""tilesets\/decorations-medieval.png",
          "imageheight":2048,
          "imagewidth":512,
          "margin":0,
@@ -1716,7 +1716,7 @@
         {
          "columns":8,
          "firstgid":3980,
-         "image":"fantasy.png",
+         "image":""tilesets\/fantasy.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
@@ -1729,11 +1729,11 @@
         {
          "columns":32,
          "firstgid":5044,
-         "image":"LPC-objects-plants-fish-submissions-outside.png",
+         "image":""tilesets\/LPC-objects-plants-fish-submissions-outside.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
-         "name":"LPC-objects-plants-fish-submissions-outside",
+         "name":""tilesets\/LPC-objects-plants-fish-submissions-outside",
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -1742,7 +1742,7 @@
         {
          "columns":32,
          "firstgid":6068,
-         "image":"LPC-submissions-outside.png",
+         "image":""tilesets\/LPC-submissions-outside.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -1755,7 +1755,7 @@
         {
          "columns":32,
          "firstgid":7092,
-         "image":"LPC-terrains-subimissions-outside.png",
+         "image":""tilesets\/LPC-terrains-subimissions-outside.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
@@ -1768,7 +1768,7 @@
         {
          "columns":16,
          "firstgid":8116,
-         "image":"plants.png",
+         "image":""tilesets\/plants.png",
          "imageheight":1024,
          "imagewidth":512,
          "margin":0,
