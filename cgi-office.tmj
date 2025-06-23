@@ -2118,7 +2118,7 @@
         {
          "columns":8,
          "firstgid":3980,
-         "image":"fantasy.png",
+         "image":"tilesets\/fantasy.png",
          "imageheight":4256,
          "imagewidth":256,
          "margin":0,
