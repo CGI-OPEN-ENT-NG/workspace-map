@@ -234,7 +234,7 @@
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 8, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
                     0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
@@ -277,14 +277,19 @@
                  "opacity":1,
                  "properties":[
                         {
-                         "name":"jitsiRoom",
+                         "name":"bbbMeeting",
                          "type":"string",
-                         "value":"http:\/\/mon.lyceeconnecte.fr\/webconference\/rooms\/7bdfc3ff-5b93-4fe9-bd5d-fb51db3dcecc\/join"
+                         "value":"7520dbdd-26cd-4314-8b74-b7a7dcda0a7e"
                         }, 
                         {
                          "name":"jitsiTrigger",
                          "type":"string",
                          "value":"onaction"
+                        }, 
+                        {
+                         "name":"meetingName",
+                         "type":"string",
+                         "value":"R\u00e9union"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -355,6 +360,11 @@
                  "name":"url planning",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":""
+                        }, 
                         {
                          "name":"openWebsite",
                          "type":"string",
@@ -429,6 +439,11 @@
                  "name":"url timesheet",
                  "opacity":1,
                  "properties":[
+                        {
+                         "name":"openTab",
+                         "type":"string",
+                         "value":""
+                        }, 
                         {
                          "name":"openWebsite",
                          "type":"string",
@@ -505,7 +520,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/youtu.be\/AX1Y-xr36A4?si=oXj4PudxoS31aY4a"
+                         "value":"https:\/\/www.youtube.com\/embed\/AX1Y-xr36A4?si=HJpbNKjgXmSH6zXw"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -578,7 +593,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/youtu.be\/BG6EtT-mReM?si=ZaGknq_qVE1jsIMV"
+                         "value":"https:\/\/www.youtube.com\/embed\/BG6EtT-mReM?si=67ahmis1xd06YmvE"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -651,7 +666,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/youtu.be\/Xq3W-J7CZdk?si=vlQmcmr6CW6_GE-8"
+                         "value":"https:\/\/www.youtube.com\/embed\/Xq3W-J7CZdk?si=JRjBoMrAHHd1Id9e"
                         }],
                  "type":"tilelayer",
                  "visible":true,
@@ -2675,7 +2690,7 @@
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
-         "name":"tilesets\/LPC-objects-plants-fish-submissions-outside",
+         "name":"LPC-objects-plants-fish-submissions-outside",
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
@@ -2697,11 +2712,11 @@
         {
          "columns":32,
          "firstgid":7092,
-         "image":"tilesets\/LPC-terrains-subimissions-outside.png",
+         "image":"LPC-terrains-subimissions-outside.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
-         "name":"LPC-terrains-subimissions-outside",
+         "name":"tilesets\/LPC-terrains-subimissions-outside",
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
