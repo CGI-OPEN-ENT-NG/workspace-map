@@ -2712,11 +2712,11 @@
         {
          "columns":32,
          "firstgid":7092,
-         "image":"LPC-terrains-subimissions-outside.png",
+         "image":"tilesets\/LPC-terrains-subimissions-outside.png",
          "imageheight":1024,
          "imagewidth":1024,
          "margin":0,
-         "name":"tilesets\/LPC-terrains-subimissions-outside",
+         "name":"LPC-terrains-subimissions-outside",
          "spacing":0,
          "tilecount":1024,
          "tileheight":32,
