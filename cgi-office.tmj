@@ -363,11 +363,6 @@
                         {
                          "name":"openTab",
                          "type":"string",
-                         "value":""
-                        }, 
-                        {
-                         "name":"openWebsite",
-                         "type":"string",
                          "value":"https:\/\/groupecgi.sharepoint.com\/:x:\/r\/teams\/PRJ00007155\/_layouts\/15\/Doc.aspx?sourcedoc=%7B6B09F154-AFAC-4226-90FE-7BDE3E835646%7D&file=PlanningEquipe.xlsx&wdOrigin=TEAMS-MAGLEV.teams_ns.rwc&action=default&mobileredirect=true"
                         }],
                  "type":"tilelayer",
